@@ -26,7 +26,7 @@ body.appendChild(container);
 
 const button =document.querySelector('.dimension');
 function getsize(){
-    const y=prompt("Type Size of Grid Less than or equal to 100");
+    const y=prompt("Type Size of Grid Less than or equal to 100--");
     while(y>100){
         alert("value should be less than 100");
         return;
